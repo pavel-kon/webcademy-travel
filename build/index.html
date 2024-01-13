@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Стартовый шаблон</title>
+
+    <link
+      rel="preload"
+      href="./fonts/CircularStd-Book.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin />
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./js/index.bundle.js" defer></script>
+  </head>
+  <body>
+    <header class="header">
+  <div class="container">
+    <nav class="nav">
+      <a class="logo" href="#!">
+        <img src="./img/icons/logo.svg" alt="Logo" />
+      </a>
+
+      <ul class="nav__list">
+        <li><a class="active" href="#!">Home</a></li>
+        <li><a href="#!">About</a></li>
+        <li><a href="#!">Packages</a></li>
+        <li><a href="#!">FAQ</a></li>
+        <li><a href="#!">Community</a></li>
+      </ul>
+
+      <div class="nav__btns">
+        <a class="btn-login" href="#!">Login</a>
+        <a class="btn-signup" href="#!">Sign Up</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<div class="mobile-nav">
+	<ul class="mobile-nav__list">
+		<li><a href="#" class="active">Home</a></li>
+		<li><a href="#!">Services</a></li>
+		<li><a href="#!">About</a></li>
+		<li><a href="#!">Projects</a></li>
+		<li><a href="#!">Contact</a></li>
+	</ul>
+</div>
+
+
+
+    <main>
+      <section class="discover">
+  <div class="container discover__container">
+    <div class="discover__description">
+      <h1 class="discover__title title-1 title-1_decor">
+        Discover your favorite place with us
+      </h1>
+
+      <p class="discover__text text">
+        Your journey begins here with our curated travel experiences. Discover
+        new horizons, create lasting memories, and explore the world with our
+        expertly crafted itineraries.
+      </p>
+
+      <div class="discover__form"><form class="form" action="">
+  <label class="form__label" for="">
+    <span>Locations</span>
+    <input
+      id="autoComplete"
+      name="country"
+      class="form__input"
+      type="text"
+      placeholder="e.g Bali, Indonesia"
+      autocomplete="off" />
+  </label>
+
+  <div class="form__devider"></div>
+
+  <label class="form__label" for="">
+    <span>Date and time</span>
+    <input
+      id="datepicker"
+      name="date"
+      class="form__input"
+      type="text"
+      placeholder="MM/DD/YYYY"
+      autocomplete="off" />
+  </label>
+
+  <button class="form__btn">
+    <img src="./img/icons/search-btn.svg" alt="Search button" />
+  </button>
+</form>
+</div>
+    </div>
+
+    <div class="discover__picture">
+      <div class="hint-discover">
+  <div class="hint-discover__picture">
+    <img
+      class="hint-discover__img"
+      src="./img/hints/coco-de-heaven.jpg"
+      alt="Hint" />
+  </div>
+
+  <div class="hint-discover__description">
+    <div class="hint-discover__title">
+      Coco De Heaven
+      <span class="hint-discover__rating">(4.5)</span>
+    </div>
+
+    <div class="hint-discover__price">
+      <span class="muted">Starts from </span>
+      <i>$</i>400
+    </div>
+  </div>
+</div>
+
+
+      <div class="discover__picture-scroll">
+        <div class="scroll-down">
+  <img
+    class="scroll-down__text"
+    src="./img/icons/scroll-down-text.svg"
+    alt="" />
+  <img class="scroll-down__icon" src="./img/icons/scroll-down.svg" alt="" />
+</div>
+
+      </div>
+
+      <img
+        class="discover__picture-img"
+        src="./img/discover/hero-img.png"
+        alt="" />
+    </div>
+  </div>
+</section>
+ <div class="partners">
+  <div class="container partners__container">
+    <h2 class="partners__title muted">Our Travel Partner</h2>
+
+    <div class="partners__content">
+      <img
+        class="partners__img"
+        src="./img/partners/traveloka.svg"
+        alt="Logo" />
+      <img class="partners__img" src="./img/partners/airbnb.svg" alt="Logo" />
+      <img class="partners__img" src="./img/partners/expedia.svg" alt="Logo" />
+      <img
+        class="partners__img"
+        src="./img/partners/skyscanner.svg"
+        alt="Logo" />
+      <img
+        class="partners__img"
+        src="./img/partners/american-airlines.svg"
+        alt="Logo" />
+    </div>
+  </div>
+</div>
+
+    </main>
+
+    <footer class="footer">
+	<div class="container">
+		<h2>Footer</h2>
+	</div>
+</footer>
+
+  </body>
+</html>

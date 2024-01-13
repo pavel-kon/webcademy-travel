@@ -1,0 +1,71 @@
+.hint-discover {
+	position: absolute;
+	top: 14%;
+	left: 7%;
+
+	display: flex;
+	gap: 16px;
+	padding: 12px;
+	max-width: 324px;
+
+	border-radius: 12px;
+	background: #fff;
+	box-shadow: 0px 4px 34px 0px rgba(50, 75, 104, 0.17);
+
+	&__picture {
+		border-radius: 8px;
+		overflow: hidden;
+		flex-shrink: 0;
+	}
+
+	&__img {
+	}
+
+	&__description {
+		flex-basis: 226px;
+	}
+
+	&__title {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		color: var(--text-color);
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 1.5; /* 27px */
+	}
+
+	&__rating {
+		display: flex;
+		justify-content: flex-end;
+		align-items: stretch;
+		gap: 4px;
+
+		color: var(--text-color);
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: 1.5; /* 21px */
+
+		&::before {
+			content: "";
+			width: 16px;
+			height: 16px;
+			background-image: url("./../img/icons/star-small.svg");
+			background-repeat: no-repeat;
+		}
+	}
+
+	&__price {
+		color: var(--text-color);
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 1.5;
+
+		i {
+			color: var(--accent);
+			font-style: normal;
+		}
+	}
+}

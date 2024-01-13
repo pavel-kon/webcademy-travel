@@ -1,0 +1,9 @@
+.card {
+	max-width: max-content;
+
+	&__img {
+		border-radius: 12px;
+		overflow: hidden;
+		margin-bottom: 16px;
+	}
+}
